@@ -1,4 +1,4 @@
-# [Getting And Cleaning Data @Coursera](https://class.coursera.org/getdata-030)
+# [Getting And Cleaning Data at Coursera](https://class.coursera.org/getdata-030)
 ## Course Project
 The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 

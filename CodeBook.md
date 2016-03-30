@@ -88,7 +88,7 @@ Feature name adjustment example:
 * 'tBodyAcc-std()-Z'  has been changed to 'tBodyAcc_std_Z'
 * etc.
 
-The transformations are achieved by the script called [run_analysis.R](https://github.com/kvss1992/GetAndCleanDataProject/blob/master/run_analysis.R), which:
+The transformations are achieved by the script called [run_analysis.R](https://github.com/kvss1992/GetAndCleaningData/blob/master/run_analysis.R), which:
 
 1. Ensures that all non-standard R packages (dplyr, reshape2) are installed
 2. Defines a number of helper functions to promote code reuse
@@ -97,4 +97,4 @@ The transformations are achieved by the script called [run_analysis.R](https://g
 5. Loads training and test datasets and enhances column names with appropriate labels
 6. Merges the testing and the test datasets using dplyr's support for method chaining (pipe operator)
 7. Creates an independent tidy dataset based on mean and standard deviations
-8. Saves the tidy dataset as [tidy_data.txt](https://github.com/kvss1992/GetAndCleanDataProject/blob/master/tidy_data.txt) and [tidy_data.csv](https://github.com/kvss1992/GetAndCleanDataProject/blob/master/tidy_data.csv) so that it can be easily imported and viewed
+8. Saves the tidy dataset as [tidy_data.txt](https://github.com/kvss1992/GetAndCleaningData/blob/master/tidy_data.txt) and [tidy_data.csv](https://github.com/kvss1992/GetAndCleaningData/blob/master/tidy_data.csv) so that it can be easily imported and viewed
